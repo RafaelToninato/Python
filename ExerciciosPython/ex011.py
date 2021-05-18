@@ -1,0 +1,5 @@
+print('Calcule quantos litros de tinta pinta a sua parade')
+lar = float(input('Digite quantos metros tem de largura a parede: '))
+alt = float(input('Digite quantos metros tem de altura a parede: '))
+print('A sua parede é de {}x{} sua área corresponde a {}m²'.format(alt, lar, lar * alt))
+print('Por tanto para pintar a sua parade vai precisar de {} litros de tinta!'.format((lar * alt) / 2))
